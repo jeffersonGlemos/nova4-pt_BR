@@ -1,0 +1,28 @@
+{
+  "name": "jefferson-g-lemos/nova4-pt-br",
+  "description": "Tradução (pt-BR) para Laravel Nova",
+  "license": "MIT",
+  "homepage": "https://github.com/jeffersonGlemos/nova4-pt_BR",
+  "authors": [
+    {
+      "name": "Jefferson",
+      "email": "jefferson_jipa14@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "illuminate/support": "^11.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "JeffersonGLemos\\NovaPtBRLocalization\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JeffersonGLemos\\NovaPtBRLocalization\\NovaPtBRLocalizationServiceProvider"
+      ]
+    }
+  }
+}
